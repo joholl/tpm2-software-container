@@ -27,14 +27,14 @@ jobs:
       -
         name: Check out the repo
         uses: actions/checkout@v3
-      -
-        name: Check Diff for Changes
-        uses: technote-space/get-diff-action@v6
-        with:
-          FILES: |
-            ${{ matrix.distro }}.docker.m4
-          PATTERNS: |
-            modules/*
+      # -
+      #   name: Check Diff for Changes
+      #   uses: technote-space/get-diff-action@v6
+      #   with:
+      #     FILES: |
+      #       ${{ matrix.distro }}.docker.m4
+      #     PATTERNS: |
+      #       modules/*
       -
         name: Build the Dockerfiles
         run: make -j $(nproc)
