@@ -10,7 +10,7 @@ jobs:
   publish-image:
     name: Manual Publish Docker Images
     runs-on: ubuntu-latest
-    if: "github.repository_owner == 'tpm2-software'"
+    if: "github.repository_owner == 'joholl'"
     steps:
       -
         name: Check out the repo

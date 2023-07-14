@@ -48,8 +48,8 @@ For example, to download and run a container based on Fedora 32 from the registr
 
 ```sh
 # With Docker
-docker run -it --rm ghcr.io/tpm2-software/fedora-32 /bin/bash
+docker run -it --rm ghcr.io/joholl/fedora-32 /bin/bash
 
 # With Podman
-podman run -it --rm ghcr.io/tpm2-software/fedora-32 /bin/bash
+podman run -it --rm ghcr.io/joholl/fedora-32 /bin/bash
 ```
