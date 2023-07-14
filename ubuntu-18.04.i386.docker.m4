@@ -1,6 +1,6 @@
 # Ubuntu 18.04 docker file
 #
-FROM i386:ubuntu:18.04
+FROM i386/ubuntu:18.04
 
 LABEL org.opencontainers.image.source https://github.com/joholl/tpm2-software-container
 
