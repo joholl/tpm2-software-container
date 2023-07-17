@@ -53,6 +53,7 @@ RUN apt-get update && \
     uuid-dev \
     opensc \
     gnutls-bin \
+    cargo \
     rustc \
     acl \
     libjson-glib-dev \
@@ -60,7 +61,7 @@ RUN apt-get update && \
     libftdi-dev \
     uthash-dev
 
-include(`pip3.m4')
+#include(`pip3.m4')
 
 ARG ibmtpm_name=ibmtpm1682
 RUN cd /tmp \

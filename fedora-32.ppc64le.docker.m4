@@ -72,7 +72,7 @@ ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 # bcrypt now needs rust to, avoid it
 # https://pypi.org/project/bcrypt/4.0.1/
 ARG PYBCRYPT_VERSION="3.2.2"
-include(`pip3.m4')
+#include(`pip3.m4')
 include(`ibmtpm1637.m4')
 
 ENV LIBTPMS_AUTOGEN_EXTRA="--libdir=/usr/lib64"

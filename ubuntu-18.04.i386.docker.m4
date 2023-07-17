@@ -63,8 +63,8 @@ RUN update-alternatives --install /usr/bin/scan-build scan-build /usr/bin/scan-b
 
 include(`autoconf.m4')
 include(`ibmtpm1637.m4')
-include(`python3.7.2.m4')
-include(`pip3.m4')
+#include(`python3.7.2.m4')
+#include(`pip3.m4')
 
 include(`swtpm.m4')
 include(`uthash.m4')
