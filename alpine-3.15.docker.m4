@@ -45,6 +45,7 @@ RUN apk update && \
     libtasn1-dev \
     json-glib-dev \
     gnutls-dev \
+    gmp-dev \
     expect \
     socat \
     libseccomp-dev \

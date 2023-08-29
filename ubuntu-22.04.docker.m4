@@ -49,6 +49,7 @@ RUN apt-get update && \
     python3 \
     python3-pip \
     libyaml-dev \
+    libgmp-dev \
     libmbedtls-dev \
     uuid-dev \
     opensc \

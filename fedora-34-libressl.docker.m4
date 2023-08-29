@@ -48,6 +48,7 @@ RUN dnf -y install \
     gawk \
     json-c-devel \
     libyaml-devel \
+    gmp-devel \
     nss-tools \
     expect \
     opensc \
