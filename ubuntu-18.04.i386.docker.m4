@@ -50,7 +50,6 @@ RUN apt-get update && \
     libnss3-tools \
     libyaml-dev \
     libgmp-dev \
-
     uuid-dev \
     opensc \
     gnutls-bin \

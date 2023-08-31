@@ -41,7 +41,7 @@ RUN zypper -n in \
     libjson-c-devel \
     libuuid-devel \
     libyaml-devel \
-    libgmp-devel \
+    gmp-devel \
     mozilla-nss-tools \
     opensc \
     java-11-openjdk-devel \

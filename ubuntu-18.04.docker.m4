@@ -49,6 +49,7 @@ RUN apt-get update && \
     sqlite3 \
     libnss3-tools \
     libyaml-dev \
+    libgmp-dev \
     uuid-dev \
     opensc \
     gnutls-bin \
