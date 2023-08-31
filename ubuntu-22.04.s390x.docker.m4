@@ -1,4 +1,4 @@
-FROM s390x:ubuntu:jammy
+FROM s390x/ubuntu:jammy
 
 
 LABEL org.opencontainers.image.source https://github.com/joholl/tpm2-software-container
